@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        /* background-color: rgb(236, 236, 236); */
+      }
+
+      html {
+        height: 500px;
+        width: 400px;
+      }
+
+      .main {
+        text-align: center;
+        width: 100%;
+      }
+
+      #search-word {
+        width: 80%;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid dodgerblue;
+        outline: none;
+        margin-bottom: 20px;
+        font-size: 16px;
+      }
+
+      #search-button {
+        outline: none;
+        border: none;
+        padding: 10px 20px 10px 20px;
+        color:rgb(255, 255, 255);
+        background-color: dodgerblue;
+        font-weight: bold;
+        border-radius: 5px;
+      }
+
+      .result {
+        padding: 10px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Vocabulary Buddy</h1>
+      <div class="words-wrapper">
+        <div class="input-box">
+          <input type="text" name="search-word" id="search-word" autofocus>
+          <button id="search-button">search</button>
+          <div class="search-result">
+            <div id="result">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>

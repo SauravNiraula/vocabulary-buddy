@@ -1,0 +1,18 @@
+  {
+    "name": "vocabulary buddy",
+    "version": "1.0",
+    "description": "improve your vocabulary",
+    "browser_action": {
+      "default_popup": "view.html"
+    },
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    },
+    "manifest_version": 2
+  }
