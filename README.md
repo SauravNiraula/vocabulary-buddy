@@ -5,4 +5,4 @@
     not only it gives the meaning of words bt actually meanings one or more
     and also the use case examples of that word
 
-    and is sarcastic too :)
+    and is sarcastic too :) -
